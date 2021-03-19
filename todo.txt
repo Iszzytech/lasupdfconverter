@@ -1,0 +1,30 @@
+ <!--================Drag and Drop  Area =================-->
+    
+        <form action="/index" method="post" enctype="multipart/form-data">          
+    <div class="cont" style="margin-bottom: 50px; border: 1px solid #cccccc">
+    <div class="drop-zone">
+        <div class="drop-zone__prompt">
+         <input type="file" name="myFile" id="main-file" class="dropzone--input" />
+         <button id="custom-button" type="button" class="btn btn-primary btn-large ch"> <img  class ="chImg" src ="icons/add.png" /> Choose file
+         </button> <br/><br/>
+       <center><span> Drop files here</span></center>
+        </div>
+    </div>
+    
+</div>
+  
+<div class="text-center">
+        
+    <button class="btn btn-primary btn-large conv" id="btnCon">Convert To PDF</button>
+</div>
+</form> 
+
+<script>
+    function fileValidation(){
+        var fileInput = document.getElementById("main-file");
+        var filePath = fileInput.value;
+        
+    }
+</script>
+    <!--================ Drag and Drop Area end =================-->
+  
